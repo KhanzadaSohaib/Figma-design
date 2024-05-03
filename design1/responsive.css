@@ -1,0 +1,142 @@
+@media only screen and (max-width: 768px) {
+    .first-section {
+        flex-direction: column-reverse;
+        height: 550px;
+    }
+    .second-section {
+        flex-direction: column;
+    }
+    .second-section img{
+        width: 100%;
+    }
+    .card-content img{
+        width: 100%;
+        padding: 0;
+        margin: 0 0 0 40px !important;
+    }
+    .cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .fourth-section-content{
+        flex-direction: column;
+        width: 100%;
+    }
+    .mini-card{
+        flex-direction: column;
+        padding: 0 !important;
+    }
+    .seventh-section{
+        height: 1080px !important;
+    }
+    .seventh-section-card{
+        flex-direction: column;
+    }
+    .eight-section-content{
+      flex-direction: column;
+    }
+    .contact-details{
+        width: 80%;
+    }
+    .form-content {
+        width: 100%;
+        padding: 0px 0px 15px 0px
+    }
+    .submit-button{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .bottom-heading h1{
+        font-size: 27px;
+    }
+    .fourth-section-width{
+        width: 80% !important;
+    }
+    .banner h3{
+        width: 250px;
+    }
+    .banner-content input{
+        margin: 0 0 0 27px;
+    }
+    .banner-content button{
+        margin: 12px 0 0 69px;
+    }
+  }
+
+
+
+
+ 
+
+
+
+/* # Desktop */
+@media only screen and (max-width: 992px){
+    .first-section {
+        flex-direction: column-reverse;
+        height: 750px;
+    }
+    
+    .second-section {
+        flex-direction: column;
+    }
+    .second-section img{
+        width: 100%;
+    }
+    .card-content img{
+        width: 60%;
+        padding: 0;
+        margin: 0 0 0 15px;
+    }
+    .cards{
+       
+        align-items: center;
+    }
+    .fourth-section-content{
+        flex-direction: column;
+        width: 100%;
+    }
+    .mini-card{
+        padding: 0 0 0 110px;
+    }
+    .seventh-section{
+        height: 1050px;
+    }
+    .seventh-section-card{
+        flex-direction: column;
+    }
+    .eight-section-content{
+      flex-direction: column;
+    }
+    .contact-details{
+        width: 90%;
+    }
+    .form-content {
+        width: 100%;
+    }
+    .submit-button{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .bottom-heading h1{
+        font-size: 27px;
+    }
+    .fourth-section-width{
+        width: 80% !important;
+    }
+    p{
+        font-size: 25px;
+    }
+    .banner h3{
+        width: 540px;
+    }
+    .banner-content button{
+        margin: 0 0 0 -13px;
+    }
+    .headings{
+        padding-bottom: 30px;
+    }
+}
+
+/* # Huge */
+@media only screen and (min-width: 1280px) {}
